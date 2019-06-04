@@ -17,7 +17,7 @@ class Php53Intl < AbstractPhp53Extension
 
   depends_on "icu4c"
 
-  needs :cxx11
+  # needs :cxx11
 
   def install
     ENV.cxx11
